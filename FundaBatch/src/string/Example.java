@@ -15,6 +15,7 @@ public static void main(String[] args) {
 	String a[]=m.split("07");
 	System.out.println(Arrays.toString(a));
 	
+	
 	System.out.println(s.startsWith("j"));
 }
 }

@@ -60,7 +60,8 @@ public static void main(String[] args) {
 	
 	add(a,b);
 	
-		
+	String ob="i"+"like";
+	
 	
 	System.out.println("Done with exception");
 }

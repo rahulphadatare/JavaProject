@@ -39,6 +39,15 @@ public static void main(String[] args) {
 		e.printStackTrace();
 		e.getClass();
 	}
+	catch (Exception e)// exception is used at the last catch block
+	{
+		System.out.println(e);
+	}
+	finally
+	{
+		System.out.println("finaly block is always exicuted");
+		sc.close();
+	}
 	
 	add(a,b);
 	index(arr, 3);
